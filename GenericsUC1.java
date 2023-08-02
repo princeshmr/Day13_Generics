@@ -3,9 +3,9 @@ package com.Day13_Generics;
 public class GenericsUC1{
 	
 	public static void main(String[] args) {
-		Integer x=10;
-		Integer y=40;
-		Integer z=30;
+		Integer x=20;
+		Integer y=10;
+		Integer z=40;
 		
 		testMaximum(x,y,z);	
 	}
