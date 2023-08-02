@@ -1,16 +1,18 @@
 package com.Day13_Generics;
 
-public class GenericsUC1{
-	
+public class GenericsUC2 {
+
 	public static void main(String[] args) {
-		Integer x=20;
-		Integer y=10;
-		Integer z=40;
+		Float x=60.5f;
+		Float y=80.5f;
+		Float z=30.5f;
 		
-		testMaximum(x,y,z);	
+		testMaximum(x,y,z);
+
 	}
-	private static Integer testMaximum(Integer x, Integer y, Integer z) {
-		Integer max=x;
+
+	private static Float testMaximum(Float x, Float y, Float z) {
+		Float max=x;
 		if(y.compareTo(max)>0) {
 			max=y;
 		}
@@ -20,13 +22,12 @@ public class GenericsUC1{
 		printMax(x,y,z,max);
 		return max;
 		
-	}
-
-	private static void printMax(Integer x, Integer y, Integer z, Integer max) {
-		System.out.println("Maximum number of "+x+","+y+","+z+" is "+max);
 		
 	}
 
-	
+	private static void printMax(Float x, Float y, Float z, Float max) {
+		System.out.println("Maximum number of "+x+","+y+","+z+" is "+max);
+		
+	}
 
 }
